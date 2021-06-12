@@ -23,12 +23,12 @@
       <!-- <nav class="hidden md:hidden space-x-10"> -->
 
         <router-link to="/" class="text-base font-medium text-gray-500 hover:text-gray-900 py-6">
-          <i class="uil uil-user-circle text-xl"></i> Dashboard
+          <i class="uil uil-create-dashboard"></i> Dashboard
         </router-link>
 
 
         <router-link to="/elections" class="text-base font-medium text-gray-500 hover:text-gray-900 py-6">
-          <i class="uil uil-user-circle text-xl"></i> Elections
+         <i class="uil uil-user-check"></i> Elections
         </router-link>
 
 

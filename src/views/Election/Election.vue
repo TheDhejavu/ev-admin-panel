@@ -3,10 +3,16 @@
     <div class="mt-5 p-5 mb-6">
         <div class="border-b border-gray-200 mb-10 relative">
           <h1 class="py-5 transition text-xl font-bold">Election</h1>
-          <button type="submit" class="absolute right-0 flex top-4 justify-center bg-gray-100 p-2 px-5 rounded-lg tracking-wide
+          <div class="absolute right-0 flex top-4  flex">
+            <button type="submit" class="justify-center bg-gray-100 p-2 px-5 rounded-lg tracking-wide
+                                      font-bold  focus:outline-none border border-gray-200 focus:shadow-outline hover:bg-gray-300 cursor-pointer transition ease-in duration-300">
+                  <i class="uil uil-pen"></i> <span class="pl-2">Edit</span>
+            </button>
+            <button type="submit" class="ml-2 justify-center bg-gray-100 p-2 px-5 rounded-lg tracking-wide
                                     font-bold  focus:outline-none border border-gray-200 focus:shadow-outline hover:bg-gray-300 cursor-pointer transition ease-in duration-300">
-                 <i class="uil uil-pen"></i> <span class="pl-2">Edit</span>
+                 <i class="uil uil-trash-alt"></i> <span class="pl-2">Remove</span>
           </button>
+          </div>
        </div>
        <div class="">
          <div class="flex mb-6 space-x-5">

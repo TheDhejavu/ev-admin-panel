@@ -41,7 +41,7 @@
           </div>
           <div class="mb-6 bg-white p-4">
               <label class="mr-2 block text-gray-700 text-sm font-bold mb-2" for="desp">
-                Accrediation
+                Accreditation
               </label>
               <div class="flex py-3"> 
                   <div class="w-1/2">
@@ -62,11 +62,11 @@
                           <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
                         </svg>
                       </span>
-                      Start Accrediation
+                      Start Accreditation
                   </button>
                   <button type="submit" class="flex w-1/2 relative mb-5  justify-center bg-red-500 text-gray-100 p-4 px-10 rounded-lg tracking-wide
                                   font-semibold  focus:outline-none focus:shadow-outline hover:bg-red-600 shadow-md cursor-pointer transition ease-in duration-300">
-                      Stop Accrediation
+                      Stop Accreditation
                   </button>
                 </div >
           </div>

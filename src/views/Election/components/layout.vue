@@ -6,7 +6,7 @@
             <li 
                 class="transition text-base font-extrabold text-gray-500 hover:text-gray-900"
             >
-                <router-link to="/elections/hello" class=" px-3 py-3  block">About </router-link>
+                <router-link to="/elections/hello" class=" px-3 py-3  block">Election </router-link>
             </li>
             <li
                 class="transition text-base font-extrabold text-gray-500 hover:text-gray-900"

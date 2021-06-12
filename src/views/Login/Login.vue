@@ -6,6 +6,7 @@
 	>
 	
 	<div class="max-w-md py-20 w-full space-y-8 p-10 bg-white rounded-xl z-10">
+		<img class="mx-auto h-12 w-auto" src="@/assets/logo.svg" alt="Logo">
 		<div class="text-center">
 			<h2 class="mt-6 text-3xl font-extrabold text-gray-900">
 				Welcome Back!

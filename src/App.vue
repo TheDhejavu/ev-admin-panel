@@ -14,6 +14,9 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700&display=swap');
+body {
+  @apply bg-gray-100
+}
 #app {
   font-family: Muli,sans-serif;
   -webkit-font-smoothing: antialiased;

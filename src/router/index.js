@@ -15,9 +15,14 @@ const routes = [
     component: () => import('@/views/Elections/Elections.vue'),
   },
   {
-    path: '/elections/candidates',
-    name: '',
-    component: () => import('@/views/Elections/Candidates.vue'),
+    path: '/elections/:election/candidates',
+    name: 'candidates',
+    component: () => import('@/views/Election/Candidates.vue'),
+  },
+  {
+    path: '/elections/:election',
+    name: 'election',
+    component: () => import('@/views/Election/Election.vue'),
   },
   {
     path: '/consensus-group',

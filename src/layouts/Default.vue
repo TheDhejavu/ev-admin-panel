@@ -1,7 +1,8 @@
 <template>
     <div class="layout bg-gray-100">
         <Header v-if="page != 'auth'"/>
-        <main class="content max-w-screen-xl m-auto">
+        <main class="content max-w-screen-xl m-auto p-10">
+            <!-- <h1 class="py-10 px-5 text-xl text-bold">{{title}}</h1> -->
             <slot/>
         </main>
         <Footer v-if="page != 'auth'"/>
@@ -20,6 +21,7 @@ export default {
     },
     props: {
         page: String,
+        title: String
     }
 }
 </script>
